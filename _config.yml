@@ -2,3 +2,5 @@ name: JSC Space Health Innovation Challenge
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title
+
+baseurl: '/spacehealthjekyll'
