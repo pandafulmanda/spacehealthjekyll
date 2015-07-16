@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 col-md-12 challenge">
+    <h1 class="challenge-tagline centered">
+    	{{ page.tagline }}
+    </h1>
+    <div class="tags centered">
+        <i class='icon-tags'></i>
+        {% for tag in page.tags %}
+        <span class='tag'>#{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% for section in page.sections %}
+    <div class="section">
+        <h2 class="light highlight-color"><i class='icon-bullhorn'></i>{{ section.type }}</h2>
+        {% if section.title %}
+        <h3 class="light highlight-color">{{ section.title }}</h3>
+        {% endif %}
+        {{ section.content }}
+    </div>
+    {% endfor %}
+    <a role="button" href="#ticket_information" class="btn-danger btn btn-lg"><i class='icon-check'></i>Accept the Mission!</a>
+    <a name="ticket_information"></a>    
+</div>

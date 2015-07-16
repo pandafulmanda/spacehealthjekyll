@@ -1,0 +1,73 @@
+---
+layout: default
+title: JSC Space Health Innovation Challenge
+---
+
+<div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 col-md-12 challenge">
+    <h1 class="challenge-tagline">
+        Challenges
+    </h1>
+    {% for challenge in site.categories['challenges'] %}
+    <div class="section">
+        <h2 class="light highlight-color">{{challenge.tagline}}</h2>
+        <div class="tags">
+            <i class='icon-tags'></i>
+            {% for tag in challenge.tags %}
+            <span class='tag'>#{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {{challenge.excerpt}}
+        <h4>
+            <a role="button" href="{{challenge.url}}" class="btn-danger btn">Find out more!</a>
+        </h4>
+    </div>        
+    {% endfor %}
+
+	{% include challenges_end.html %}
+</div>
+</div>
+</div>
+
+
+<div class="row solid-white margin-top margin-bottom">
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 col-md-12 challenge">
+            <h1 class="challenge-tagline">
+                Prizes
+            </h1>
+            <div class="section">
+                <h3 class="light highlight-color">Membership at <a href="http://brightworkcoresearch.com/" target="_blank">Brightwork CoResearch</a></h3>
+                <ul>
+                    <li>1 month of CoWork to top non-hardware team (Value:$250/person)</li>
+                    <li>1 month of CoResearch to top the hardware team (Value:$350/person)</li>
+                    <li>Automatic acceptance into Bright Ideas Accelerator to the grand prize winners (Value: $1050/person)</li>
+                </ul>
+                <h3 class="light highlight-color">Office hours with:</h3>
+                <ul>
+                    <li>
+                        Wyle
+                    </li>
+                    <li>
+                        Johnson Space Center Staff and Judges
+                        <ul>
+                            <li>Baraquiel Reyna</li>
+                            <li><a href="http://missiontomarshealth.com/people/dorit-donoviel/" target="_blank">Dorit Donoviel</a></li>
+                            <li>Genie Bopp</li>
+                        </ul>
+                    </li>
+                    <li>
+                        National Space Biomedical Research Institute (NSBRI)
+                    </li>
+                </ul>
+                <h3 class="light highlight-color"><a href="http://gopro.com/videos/featured/super-bowl-ad-2014-the-full-story" target="_blank">Red Bull Stratos Jump memorabilia</a></h3>
+                <h3 class="light highlight-color">Tickets to the <a href="http://www.health2con.com/events/conferences/health-2-0-fall-conference-2014/" target="_blank">Health 2.0 National Conference</a></h3>                        
+            </div>
+            <div class="section">
+                <h3 class="light highlight-color">Most Outstanding Female Entrepreneur Award</h3>
+                <ul>
+                    <li>$50 cash prize</li>
+                    <li>1-year FREE membership to <a href="http://awisgch.org" target="_blank">AWIS Gulf Coast-Houston Chapter</a></li>
+                </ul>
+                <a name="ticket_information"></a>
+            </div>
+        </div>

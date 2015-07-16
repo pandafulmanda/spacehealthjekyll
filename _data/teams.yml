@@ -1,0 +1,51 @@
+- name: Astronoms
+  mission: Nutrition Management in Space
+  video_url: eMKuX60_SJs
+  description: Created a frictionless, full-featured, integrated diet tracker that will motivate astronauts to improve their health and inform researchers of human health in space.
+
+- name: SPOC (Space Pulse on Camera)
+  mission: <a href="http://spacehealthchallenge.com/challenges/no-contact-heart-rate-monitor" target="_blank">No-Contact Heart Rate Monitor</a>
+  video_url: NgNgWUKRTk4
+  description: SPOC is a non-invasive and non-contact way to detect human pulse using an ordinary web-cam, allowing astronauts to save time on weekly mission medical reviews.
+
+- name: Lost in Space
+  mission: <a href="http://spacehealthchallenge.com/challenges/i-spy-in-space" target="_blank">I Spy...</a>
+  video_url: oFI0_JegHL0
+  description: Using crowd-sourcing to help locate lost items in space.
+
+- name: Space Hospital in a Toilet
+  mission: Health Monitoring in Space
+  video_url: lkxGJVqwvRc
+  description: A non-contact, non-invasive way to monitor the body's hydration levels along with a recommendation system.  The system is intergrated with the OpenEMR.
+
+- name: SMMID (Space Multi-purpose Medical Imaging Device)
+  mission: <a href="http://spacehealthchallenge.com/challenges/all-in-one-multiscope" target="_blank">Swiss Army Knife for Imaging</a>
+  video_url: iXoYmSZKRa8
+  description: A device for examining the ear-nose-throat and temperature of a person.
+
+- name: Astronanny
+  mission: <a href="http://spacehealthchallenge.com/challenges/stay-clear-danger-near" target="_blank">Augmented Situational Awareness System</a>
+  video_url: lCVT6xYbiQ8
+  description: A system that using computer vision to search the hazards database, warn of incompatible storage, and provide proximity alerts.  The system uses current warning labels on the ISS.
+
+- name: team(evermed)
+  mission: <a href="http://spacehealthchallenge.com/challenges/saving-time-to-save-lives" target="_blank">Saving Time to Save Lives</a>
+  video_url: CWGVEn8qIeQ
+  description: Using the Google Glass to deliver emergency procedure instructions in place of piles of PDF.
+
+- name: Total Recall
+  mission: <a href="http://spacehealthchallenge.com/challenges/intergalactic-traveling-university" target="_blank">Intergalatic Traveling University</a>
+  video_url: 0HYFYSMTuDQ
+  description: A way to train the astronauts in space using videos and practicing with 3D-models and Augmented Reality.
+
+- name: Hal-th 3.0
+  mission: <a href="http://spacehealthchallenge.com/challenges/medical-hal-3000" target="_blank">Medical Hal 3000</a>
+  description: 
+
+- name: Virtmark
+  mission:
+  description: 
+
+- name: PAM
+  mission:
+  description: 

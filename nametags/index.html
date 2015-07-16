@@ -1,0 +1,31 @@
+---
+layout: plain
+title: JSC Space Health Innovation Challenge
+---
+
+{% for member in site.data.members %}
+    <div class="col-xs-6" style="height: 280px">
+        <h1 style="margin-top: 100px" class="centered
+            {% if member.type != 'participant' %}
+                highlight-color
+            {% endif %}
+            ">
+            {{ member.name }}
+        </h1>
+        {% if member.type != 'participant' %}
+        <h3 class="centered" style="margin: 0; font-weight: 600">
+            {{ member.type }}{% if member.organization %}<span  style="font-weight: 200">, <i>{{ member.organization }}</i></span>{% endif %}
+        </h3>
+        {% endif %}
+        {% if member.challenge %}
+        <div class="row">
+            <h4 class="centered col-sm-8 col-sm-offset-2 light">
+                <i>{{ member.challenge }}</i>
+            </h4>
+        </div>
+        {% endif %}
+        <p class="centered" style="margin-top:2em">
+            <i class="light highlight-color">Space Health Innovation Challenge, 2014</i>            
+        </p>
+    </div>
+{% endfor %}
